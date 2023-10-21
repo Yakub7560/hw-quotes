@@ -1,0 +1,44 @@
+.mytask{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 300px;
+  
+   padding: 5px;
+   border-radius: 5px;
+
+}
+
+.inputtask{
+   display: flex;
+   padding: 10px;
+}
+.inputtask button{
+   background-color: green;
+   border: transparent;
+   color: aliceblue;
+   margin-left: 5px;
+   border-radius: 5px;
+}
+.task{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 5px;
+   width: 367px;
+   background: green;
+}
+
+.task input{
+   width: 20px;height: 20px;
+   
+}
+
+
+.checked {
+   background-color: red;
+   text-decoration: line-through;
+ }
+ input[type="checkbox"] {
+   margin-right: 10px;
+ }
+ 
